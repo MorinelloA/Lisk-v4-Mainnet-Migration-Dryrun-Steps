@@ -77,7 +77,7 @@
 1. If you did not participate in the migration dry run or ran the migrator without the **--auto-start-lisk-core-v4** flag, and want to start running a new node on the migrated network, please specify the following flag when starting the node in addition to the ones you want to:
   - `--genesis-block-url=https://lisk-mainnet-dryrun.fra1.cdn.digitaloceanspaces.com/genesis_block.json.tar.gz`
 
-**Example:** lisk-core start -n mainnet -c ./custom-config.json --genesis-block-url=https://lisk-mainnet-dryrun.fra1.cdn.digitaloceanspaces.com/genesis\_block.json.tar.gz
+**Example:** `lisk-core start -n mainnet -c ./custom-config.json --genesis-block-url=https://lisk-mainnet-dryrun.fra1.cdn.digitaloceanspaces.com/genesis\_block.json.tar.gz`
 
 ## Running Lisk Service against the migrated Mainnet (On the new server)
 
